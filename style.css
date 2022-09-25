@@ -1,0 +1,106 @@
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 97vh; }
+
+main {
+  display: flex; }
+  @media (max-width: 27rem) {
+    main {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 0; } }
+
+.card {
+  display: flex;
+  height: 60vh;
+  width: 18vw; }
+  @media (max-width: 27rem) {
+    .card {
+      width: 95%;
+      height: auto;
+      padding: 2rem 0; } }
+  .card .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4rem;
+    height: 100%; }
+  .card h1 {
+    font-family: "Big Shoulders Display", cursive;
+    color: #f2f2f2;
+    font-size: 2.5rem;
+    margin: 2rem 0; }
+  .card p {
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 6rem;
+    line-height: 1.5;
+    margin-top: 0;
+    font-size: 15px; }
+    @media (max-width: 27rem) {
+      .card p {
+        margin-bottom: 4rem; } }
+  .card a {
+    font-weight: "Lexend Deca", sans-serif; }
+    .card a :hover, .card a :active, .card a :focus {
+      cursor: pointer;
+      outline: none; }
+    .card a button {
+      border: solid 1px white;
+      padding: 0.8rem;
+      border-radius: 1rem;
+      width: 70%;
+      background-color: white;
+      font-family: inherit; }
+
+.sedans {
+  background-color: #e38826;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem; }
+  @media (max-width: 27rem) {
+    .sedans {
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+      border-bottom-left-radius: 0; } }
+  .sedans a:hover button, .sedans a:active button {
+    background-color: #e38826;
+    color: white; }
+  .sedans button {
+    color: #e38826; }
+
+.suvs {
+  background-color: #006970; }
+  .suvs a:hover button, .suvs a:active button {
+    background-color: #006970;
+    color: white; }
+  .suvs button {
+    color: #006970; }
+
+.luxury {
+  background-color: #004241;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem; }
+  @media (max-width: 27rem) {
+    .luxury {
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 0.5rem;
+      border-bottom-right-radius: 0.5rem; } }
+  .luxury a:hover button, .luxury a:active button {
+    background-color: #004241;
+    color: white; }
+  .luxury button {
+    color: #004241; }
+
+footer {
+  margin: 2rem 0; }
+  footer a {
+    text-decoration: none;
+    color: #004241;
+    font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
