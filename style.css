@@ -19,7 +19,7 @@ main {
 .card {
   display: flex;
   height: 60vh;
-  width: 18vw; }
+  width: 20vw; }
   @media (max-width: 27rem) {
     .card {
       width: 95%;
@@ -29,7 +29,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 4rem;
+    padding: 0 2.4rem;
     height: 100%; }
   .card h1 {
     font-family: "Big Shoulders Display", cursive;

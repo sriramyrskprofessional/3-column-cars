@@ -25,7 +25,7 @@ main{
 .card{
     display: flex;
     height: 60vh;
-    width: 18vw;
+    width: 20vw;
     @include media-max-width(27rem){
         width: 95%;
         height: auto;
@@ -35,7 +35,7 @@ main{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0 4rem;
+        padding: 0 2.4rem;
         height: 100%;
         
     }
